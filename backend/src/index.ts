@@ -1,1 +1,3 @@
-console.log("Inside backend/src/index.ts");
+import express from "express";
+const app = express();
+app.listen(5000, () => console.log("Server Open on PORT =", 5000));
